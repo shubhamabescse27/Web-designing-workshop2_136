@@ -15,7 +15,11 @@
 //console.log(b); 
 //let
 //const
-let marks = 90;
-console.log(marks);
-let marks = 95; // syntax error : identifier 'marks' has
-console.log(marks);
+//console.log(marks);
+//
+    let name = "John";
+    console.log(name);
+    //const
+    const pi = 3.14;
+    console.log(pi);
+    
