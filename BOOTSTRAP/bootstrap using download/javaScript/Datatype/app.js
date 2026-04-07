@@ -48,4 +48,15 @@ console.log(person["age"]);//25
 //array //ordered collection of values
 let numbers = [1,2,3,4,5];
 console.log(numbers); //[1,2,3,4,5]
+let arr1 = [1, "Hello", "World", 56];
+console.log(arr1); //
+// array operations
+//pus() - adds an element to the end of the array
+let arrnew = [1,2,3];
+arrnew.push(4);
+console.log(arrnew); //[1,2,3,4]
+
+//pop() - removes the lats element from the array
+arrnew.pop();
+console.log(arrnew); //[1,2,3]
 
