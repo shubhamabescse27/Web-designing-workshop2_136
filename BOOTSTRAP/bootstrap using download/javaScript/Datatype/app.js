@@ -45,4 +45,7 @@ console.log(person);
 //value of object can be accessed using dot notation or bracket notation
 console.log(person.name);//Alice
 console.log(person["age"]);//25
+//array //ordered collection of values
+let numbers = [1,2,3,4,5];
+console.log(numbers); //[1,2,3,4,5]
 
