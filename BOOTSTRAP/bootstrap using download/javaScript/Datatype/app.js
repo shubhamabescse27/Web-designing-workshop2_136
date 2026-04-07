@@ -42,3 +42,7 @@ let person = {
     isStudent: false
 };
 console.log(person);
+//value of object can be accessed using dot notation or bracket notation
+console.log(person.name);//Alice
+console.log(person["age"]);//25
+
