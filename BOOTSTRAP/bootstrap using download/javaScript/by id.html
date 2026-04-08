@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <h1 id="title">Welcome</h1>
+
+    <button onclick="change text()"> click me</button>
+
+    <script>
+        function change text() {
+
+            let heading = document.getElementById("title");
+            heading.innerText = " hello students! Welcome to JAvascript "
+
+
+            heading.style.color = "blue";
+
+        }
+
+    </script>
+</body>
+</html>
