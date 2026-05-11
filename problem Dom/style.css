@@ -1,0 +1,12 @@
+.btn {
+    color: blue;
+    background-color: brown;
+    border-radius: 10;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+}
+.polu{
+    align-items: center;
+    display: flex;
+}
